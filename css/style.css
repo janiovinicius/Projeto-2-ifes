@@ -84,3 +84,53 @@ body{
 .logoHorizontal img{
    height: 70%;
 }
+.botaoVoltar{
+    height: 5%;
+}
+.centralizar{
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;
+    flex-direction: row;
+    display: flex;
+    height: 90%;
+}
+.esq{
+    width: 30%;
+}
+.dir{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.imagensContainer{
+    display: flex;
+    flex-direction: column;
+}
+.superior{
+    display: flex;
+    flex-direction: row;
+}
+.superiorEsq{
+    display: flex;
+    flex-direction: column;
+}
+.logoCaixas img{
+    height: 200px;
+}
+
+.inferiorEsq .logoCaixas img{
+    height: 70px;
+}
+.tituloCaixas h1{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.dirContainer{
+    margin-left: 5%;
+}
+.containerConteudo{
+    display: flex;
+    justify-content: center;
+}
