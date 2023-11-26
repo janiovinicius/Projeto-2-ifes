@@ -1,16 +1,18 @@
-body {
+body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     width: 100vw;
     flex-direction: column;
+}
+.bodyIndex{
+    justify-content: center;
+    align-items: center;
     background-color: #171717;
 }
-main{
+.mainIndex{
     width: 100%;
     height: 70%;
     display: flex;
@@ -25,7 +27,7 @@ main{
     justify-self: center;
     align-self: center;
 }
-footer{
+.footerIndex{
     width: 100%;
     height: 30%;
     display: flex;
@@ -48,4 +50,37 @@ footer{
     border-radius: 5px;
     justify-self: center;
     text-align: center;
+}
+
+.bodyPag{
+
+}
+.headerPag{
+    margin-top: 1%;
+    margin-right: 20px;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    background-color: #171717;
+}
+.containerHeader{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.containerHeader h1{
+    font-weight: 400;
+    color: white;
+    margin-left: 2%;
+}
+
+.logoHorizontal{
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.logoHorizontal img{
+   height: 70%;
 }
