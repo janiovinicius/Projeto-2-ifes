@@ -134,3 +134,12 @@ body{
     display: flex;
     justify-content: center;
 }
+.botaoVoltar img{
+    height: 50px;
+}
+.btnsup img{
+    transform: rotate(180deg);
+}
+.btninf img{
+    transform: rotate(270deg);
+}
